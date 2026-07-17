@@ -1,5 +1,39 @@
+# Root-level scratch and editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Local build outputs and caches
+**/.build/
+**/ModuleCache/
+**/.venv/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pcm
+**/*.swiftmodule
+**/*.swiftdoc
+**/*.so
+**/*.dylib
+**/*.o
+**/*.a
+**/*.ll
+**/*.bc
+
+# Generated helper binary
+metal-prototype/tools/extract_vina_model
+
+# Local scratch outputs from the tutorial data set
+data/*_out.pdbqt
+benchmark-100/downloads/*.tar.gz
+
+# Keep the root results directory available for ad hoc notes,
+# but do not add fresh scratch files there.
 results/*
 !results/.gitkeep
-metal-prototype/.build/
-data/*_out.pdbqt
-metal-prototype/tools/extract_vina_model
+
+# Avoid noise from transient benchmark or preparation logs
+*.tmp
+*.temp
+*.cache

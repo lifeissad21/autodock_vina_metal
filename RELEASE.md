@@ -10,6 +10,8 @@ This release packages the Metal-backed Vina-compatible docking engine and the be
 - `benchmark-100/`: 100-case DUD-E Diverse benchmark
 - `broader-benchmark/`: smaller compatibility benchmark used during development
 
+The raw DUD-E Diverse download archive is treated as an external input cache. The prepared benchmark inputs and the generated result reports are the versioned experiment artifacts.
+
 ## Release Highlights
 
 - Vina-compatible scoring and refinement through the official `bin/vina` executable

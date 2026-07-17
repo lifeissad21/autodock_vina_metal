@@ -9,6 +9,8 @@ This repository contains:
 - `broader-benchmark/`: the earlier smaller compatibility benchmark
 - `bin/vina`: the official AutoDock Vina 1.2.7 executable used for baseline runs and final refinement
 
+The raw DUD-E Diverse archive is treated as an external input cache, not a versioned source artifact. The prepared benchmark inputs and generated reports remain in the repository.
+
 The working name I would use for GitHub is `autodock-vina-metal`. It is explicit, searchable, and matches the upstream project naming better than a generic benchmark title.
 
 ## What This Experiment Measures
