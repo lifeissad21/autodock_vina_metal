@@ -1,0 +1,8 @@
+[submodule "research/Vina-GPU-2.1"]
+	path = research/Vina-GPU-2.1
+	url = https://github.com/DeltaGroupNJUPT/Vina-GPU-2.1.git
+	ignore = untracked
+[submodule "vendor/AutoDock-Vina"]
+	path = vendor/AutoDock-Vina
+	url = https://github.com/ccsb-scripps/AutoDock-Vina.git
+	ignore = untracked
