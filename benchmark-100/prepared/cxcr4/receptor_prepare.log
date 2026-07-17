@@ -1,0 +1,5 @@
+==============================
+*** Open Babel Warning  in PerceiveBondOrders
+  Failed to kekulize aromatic bonds in OBMol::PerceiveBondOrders (title is /Users/gpm/Desktop/Repos/vina-multicore-benchmark/benchmark-100/prepared/cxcr4/receptor_normalized.pdb)
+
+1 molecule converted

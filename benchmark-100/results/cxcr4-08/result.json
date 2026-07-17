@@ -1,0 +1,16 @@
+{
+  "id": "cxcr4-08",
+  "target": "cxcr4",
+  "ligand": "CHEMBL1089845",
+  "seed": 20260744,
+  "heavyAtoms": 26,
+  "torsions": 7,
+  "cpuSeconds": 7.592084125000023,
+  "cpuScore": -7.927,
+  "metalProcessSeconds": 2.733442959000007,
+  "metalSearchSeconds": 1.75,
+  "vinaRefinementSeconds": 0.7042,
+  "hybridScore": -8.301,
+  "scoreDelta": -0.37400000000000055,
+  "poseRmsd": 6.614612547522807
+}

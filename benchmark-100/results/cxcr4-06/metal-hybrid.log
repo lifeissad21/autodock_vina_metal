@@ -1,0 +1,15 @@
+Device: Apple M3, unified memory: true
+Maps: 5 × 59×53×65; atoms: 26
+Input-pose grid energy: 1736207360.000 kcal/mol
+Input-pose internal energy: 3.418 kcal/mol
+Metal flexible docking: 4096 lanes × 44 steps, 1797.0 ms
+Vina-compatible effort: exhaustiveness 8, heuristic global steps 22155, local steps 18
+Torsions: 7; intramolecular pairs: 206
+Clustered minima: 1 at 1.00 Å RMSD
+Best Metal search energy: -11.080 kcal/mol
+Output: /Users/gpm/Desktop/Repos/vina-multicore-benchmark/benchmark-100/results/cxcr4-06/metal-raw.pdbqt
+Clustered modes output: /Users/gpm/Desktop/Repos/vina-multicore-benchmark/benchmark-100/results/cxcr4-06/metal-raw_modes.pdbqt
+Authoritative Vina 1.2.7 score: -7.403 kcal/mol
+Authoritative modes refined: 1
+Vina finalization: 813.4 ms
+Finalized output: /Users/gpm/Desktop/Repos/vina-multicore-benchmark/benchmark-100/results/cxcr4-06/metal-vina-final.pdbqt

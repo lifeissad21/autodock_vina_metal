@@ -1,0 +1,19 @@
+REMARK SMILES C[P@](=O)([O-])CC(=O)[O-]
+REMARK SMILES IDX 5 1 2 2 3 3 1 4 4 5 6 6 7 7 8 8
+REMARK H PARENT
+REMARK INDEX MAP 4 1 2 2 3 3 1 4 8 5 5 6 6 7 7 8
+ROOT
+ATOM      1  C   UNL     1      76.624   6.553  23.390  1.00  0.00     0.107 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  P   UNL     1      77.693   5.482  24.407  1.00  0.00     0.017 P 
+ATOM      3  O   UNL     1      76.829   4.410  25.109  1.00  0.00    -0.340 OA
+ATOM      4  C   UNL     1      78.545   6.493  25.664  1.00  0.00     0.066 C 
+ATOM      5  O   UNL     1      78.739   4.792  23.505  1.00  0.00    -0.799 OA
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   UNL     1      75.700   5.698  22.561  1.00  0.00     0.048 C 
+ATOM      7  O   UNL     1      76.110   5.167  21.543  1.00  0.00    -0.550 OA
+ATOM      8  O   UNL     1      74.543   5.538  22.910  1.00  0.00    -0.550 OA
+ENDBRANCH   1   6
+TORSDOF 2

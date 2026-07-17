@@ -1,0 +1,16 @@
+{
+  "id": "hivpr-04",
+  "target": "hivpr",
+  "ligand": "CHEMBL171551",
+  "seed": 20260780,
+  "heavyAtoms": 27,
+  "torsions": 8,
+  "cpuSeconds": 8.896457124999957,
+  "cpuScore": -8.458,
+  "metalProcessSeconds": 3.645418624999933,
+  "metalSearchSeconds": 2.3921,
+  "vinaRefinementSeconds": 0.7315,
+  "hybridScore": -8.327,
+  "scoreDelta": 0.13100000000000023,
+  "poseRmsd": 0.9471508738198885
+}

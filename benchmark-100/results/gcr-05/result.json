@@ -1,0 +1,16 @@
+{
+  "id": "gcr-05",
+  "target": "gcr",
+  "ligand": "CHEMBL404192",
+  "seed": 20260761,
+  "heavyAtoms": 34,
+  "torsions": 4,
+  "cpuSeconds": 11.276893917000038,
+  "cpuScore": -11.75,
+  "metalProcessSeconds": 4.537715167000017,
+  "metalSearchSeconds": 3.0410999999999997,
+  "vinaRefinementSeconds": 0.8565,
+  "hybridScore": -11.682,
+  "scoreDelta": 0.06799999999999962,
+  "poseRmsd": 0.1780901952580746
+}

@@ -1,0 +1,35 @@
+MODEL 1
+REMARK METAL SEARCH ENERGY: -8.083767
+REMARK SMILES O=C([O-])[C@H]1CC(=O)N(c2ccccc2O)C1
+REMARK SMILES IDX 11 1 12 2 13 3 14 4 9 5 10 6 8 7 6 8 16 9 5 10 7 11 4 12
+REMARK SMILES IDX 2 13 1 14 3 15 15 16
+REMARK H PARENT 15 17
+REMARK INDEX MAP 1 1 2 2 3 3 4 4 5 5 6 6 7 7 12 8 8 9 11 10 13 11 9 12 14 13
+REMARK INDEX MAP 15 14 16 15 17 16 26 17
+ROOT
+ATOM      1  C   UNL     1      81.391   5.167  31.470  1.00  0.00     0.002 A 
+ATOM      2  C   UNL     1      80.423   5.196  32.456  1.00  0.00     0.004 A 
+ATOM      3  C   UNL     1      79.088   5.322  32.116  1.00  0.00     0.048 A 
+ATOM      4  C   UNL     1      78.718   5.419  30.785  1.00  0.00     0.139 A 
+ATOM      5  C   UNL     1      79.693   5.392  29.791  1.00  0.00     0.086 A 
+ATOM      6  C   UNL     1      81.030   5.264  30.139  1.00  0.00     0.030 A 
+ENDROOT
+BRANCH   5   7
+ATOM      7  N   UNL     1      79.326   5.489  28.442  1.00  0.00    -0.308 N 
+ATOM      8  C   UNL     1      78.861   6.610  27.861  1.00  0.00     0.227 C 
+ATOM      9  C   UNL     1      79.394   4.381  27.484  1.00  0.00     0.136 C 
+ATOM     10  C   UNL     1      78.579   6.357  26.397  1.00  0.00     0.112 C 
+ATOM     11  O   UNL     1      78.695   7.668  28.429  1.00  0.00    -0.274 OA
+ATOM     12  C   UNL     1      79.324   5.038  26.087  1.00  0.00     0.064 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1      78.534   4.184  25.128  1.00  0.00     0.047 C 
+ATOM     14  O   UNL     1      79.088   3.292  24.509  1.00  0.00    -0.550 OA
+ATOM     15  O   UNL     1      77.342   4.385  24.972  1.00  0.00    -0.550 OA
+ENDBRANCH  12  13
+ENDBRANCH   5   7
+BRANCH   4  16
+ATOM     16  O   UNL     1      77.406   5.542  30.449  1.00  0.00    -0.506 OA
+ATOM     17  H   UNL     1      77.243   5.545  29.496  1.00  0.00     0.293 HD
+ENDBRANCH   4  16
+TORSDOF 3
+ENDMDL

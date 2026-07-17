@@ -1,0 +1,5 @@
+results/*
+!results/.gitkeep
+metal-prototype/.build/
+data/*_out.pdbqt
+metal-prototype/tools/extract_vina_model

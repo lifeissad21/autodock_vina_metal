@@ -1,0 +1,81 @@
+{
+  "repetitions": 3,
+  "seed": 20260717,
+  "summaries": [
+    {
+      "case": "1iep",
+      "note": "Imatinib benchmark; 37 heavy atoms, 7 torsions",
+      "cpuSeconds": 8.680865416000005,
+      "metalSeconds": 2.893980499999998,
+      "hybridSeconds": 3.4025134169999984,
+      "speedupSearch": 2.9996281647371195,
+      "speedupHybrid": 2.5513096796702532,
+      "cpuScore": -13.23,
+      "metalGridScore": -12.472,
+      "refinedScore": -13.222,
+      "refinedScoreDelta": 0.008000000000000895,
+      "refinedVsCpuRmsd": 0.8577174927079995
+    },
+    {
+      "case": "1fpu_rigid",
+      "note": "Same ligand in 1FPU pocket; receptor held rigid for feature parity",
+      "cpuSeconds": 9.99087225,
+      "metalSeconds": 2.9352557090000047,
+      "hybridSeconds": 3.441159042000014,
+      "speedupSearch": 3.4037485113703205,
+      "speedupHybrid": 2.9033451020599355,
+      "cpuScore": -11.91,
+      "metalGridScore": -10.811,
+      "refinedScore": -11.353,
+      "refinedScoreDelta": 0.5570000000000004,
+      "refinedVsCpuRmsd": 1.0008817733999975
+    },
+    {
+      "case": "1s63",
+      "note": "Metalloprotein example with ordinary Vina receptor; 29 heavy atoms, 6 torsions",
+      "cpuSeconds": 4.828417915999991,
+      "metalSeconds": 1.8926330000000016,
+      "hybridSeconds": 2.4221105410000017,
+      "speedupSearch": 2.5511643916173856,
+      "speedupHybrid": 1.9934754563293022,
+      "cpuScore": -9.011,
+      "metalGridScore": -8.644,
+      "refinedScore": -8.929,
+      "refinedScoreDelta": 0.08199999999999896,
+      "refinedVsCpuRmsd": 0.1659393324952409
+    },
+    {
+      "case": "5x72_p59",
+      "note": "5X72 ligand P59; 24 heavy atoms, 2 torsions",
+      "cpuSeconds": 1.8625448340000004,
+      "metalSeconds": 1.3416214580000088,
+      "hybridSeconds": 1.8295950000000158,
+      "speedupSearch": 1.388278953719588,
+      "speedupHybrid": 1.0180093594483939,
+      "cpuScore": -10.98,
+      "metalGridScore": -10.633,
+      "refinedScore": -10.904,
+      "refinedScoreDelta": 0.07600000000000051,
+      "refinedVsCpuRmsd": 0.08764178987978984
+    },
+    {
+      "case": "5x72_p69",
+      "note": "5X72 ligand P69; 24 heavy atoms, 2 torsions",
+      "cpuSeconds": 1.939715458000006,
+      "metalSeconds": 1.3321084580000024,
+      "hybridSeconds": 1.8221744999999938,
+      "speedupSearch": 1.4561242715268476,
+      "speedupHybrid": 1.064505873614197,
+      "cpuScore": -10.47,
+      "metalGridScore": -9.962,
+      "refinedScore": -10.313,
+      "refinedScoreDelta": 0.15700000000000003,
+      "refinedVsCpuRmsd": 0.07466145815166848
+    }
+  ],
+  "totals": {
+    "cpuSeconds": 27.302415874000005,
+    "metalSeconds": 10.395599125000016,
+    "hybridSeconds": 12.917552500000024
+  }
+}

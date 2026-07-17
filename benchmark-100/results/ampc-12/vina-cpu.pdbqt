@@ -1,0 +1,39 @@
+MODEL 1
+REMARK VINA RESULT:    -7.097      0.000      0.000
+REMARK INTER + INTRA:          -8.790
+REMARK INTER:                  -8.342
+REMARK INTRA:                  -0.448
+REMARK UNBOUND:                -0.448
+REMARK SMILES CCc1ccc(N2C[C@@H](C(=O)[O-])CC2=O)cc1
+REMARK SMILES IDX 3 1 4 2 5 3 6 4 16 5 17 6 2 7 1 8 7 9 14 10 8 11 13 12 15 13
+REMARK SMILES IDX 9 14 10 15 11 16 12 17
+REMARK H PARENT
+REMARK INDEX MAP 3 1 4 2 5 3 6 4 7 5 8 6 2 7 1 8 9 9 14 10 10 11 13 12 15 13
+REMARK INDEX MAP 11 14 16 15 17 16 18 17
+ROOT
+ATOM      1  C   UNL     1      80.427   5.111  32.247  1.00  0.00    -0.048 A 
+ATOM      2  C   UNL     1      79.103   4.945  31.885  1.00  0.00     0.006 A 
+ATOM      3  C   UNL     1      78.727   5.070  30.562  1.00  0.00     0.026 A 
+ATOM      4  C   UNL     1      79.680   5.363  29.595  1.00  0.00     0.044 A 
+ATOM      5  C   UNL     1      81.008   5.530  29.963  1.00  0.00     0.026 A 
+ATOM      6  C   UNL     1      81.377   5.409  31.288  1.00  0.00     0.006 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C   UNL     1      80.834   4.975  33.692  1.00  0.00     0.032 C 
+ATOM      8  C   UNL     1      81.520   3.624  33.904  1.00  0.00     0.009 C 
+ENDBRANCH   1   7
+BRANCH   4   9
+ATOM      9  N   UNL     1      79.302   5.489  28.254  1.00  0.00    -0.312 N 
+ATOM     10  C   UNL     1      78.776   6.603  27.716  1.00  0.00     0.227 C 
+ATOM     11  C   UNL     1      79.424   4.421  27.256  1.00  0.00     0.135 C 
+ATOM     12  C   UNL     1      78.501   6.389  26.243  1.00  0.00     0.112 C 
+ATOM     13  O   UNL     1      78.555   7.630  28.321  1.00  0.00    -0.274 OA
+ATOM     14  C   UNL     1      79.314   5.124  25.884  1.00  0.00     0.064 C 
+BRANCH  14  15
+ATOM     15  C   UNL     1      78.566   4.264  24.897  1.00  0.00     0.047 C 
+ATOM     16  O   UNL     1      79.180   3.582  24.095  1.00  0.00    -0.550 OA
+ATOM     17  O   UNL     1      77.347   4.252  24.901  1.00  0.00    -0.550 OA
+ENDBRANCH  14  15
+ENDBRANCH   4   9
+TORSDOF 3
+ENDMDL

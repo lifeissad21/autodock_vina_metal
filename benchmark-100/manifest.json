@@ -1,0 +1,1961 @@
+{
+  "benchmark_version": "dude-diverse-100-v1",
+  "source": "DUD-E Diverse",
+  "targets": [
+    "ampc",
+    "cxcr4",
+    "gcr",
+    "hivpr",
+    "hivrt"
+  ],
+  "ligands_per_target": 20,
+  "cases": [
+    {
+      "target": "ampc",
+      "ligand": "308",
+      "source_index": 0,
+      "pdbqt": "benchmark-100/prepared/ampc/ligands/01_308.pdbqt",
+      "heavy_atoms": 16,
+      "rotatable_bonds": 3,
+      "branches": 3,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "OA"
+      ],
+      "receptor": "benchmark-100/prepared/ampc/receptor.pdbqt",
+      "config": "benchmark-100/prepared/ampc/receptor.box.txt",
+      "maps": "benchmark-100/prepared/ampc/maps"
+    },
+    {
+      "target": "ampc",
+      "ligand": "319",
+      "source_index": 1,
+      "pdbqt": "benchmark-100/prepared/ampc/ligands/02_319.pdbqt",
+      "heavy_atoms": 14,
+      "rotatable_bonds": 1,
+      "branches": 1,
+      "atom_types": [
+        "A",
+        "C",
+        "NA",
+        "OA",
+        "P",
+        "S"
+      ],
+      "receptor": "benchmark-100/prepared/ampc/receptor.pdbqt",
+      "config": "benchmark-100/prepared/ampc/receptor.box.txt",
+      "maps": "benchmark-100/prepared/ampc/maps"
+    },
+    {
+      "target": "ampc",
+      "ligand": "319",
+      "source_index": 2,
+      "pdbqt": "benchmark-100/prepared/ampc/ligands/03_319.pdbqt",
+      "heavy_atoms": 14,
+      "rotatable_bonds": 2,
+      "branches": 2,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "NA",
+        "OA",
+        "P",
+        "S"
+      ],
+      "receptor": "benchmark-100/prepared/ampc/receptor.pdbqt",
+      "config": "benchmark-100/prepared/ampc/receptor.box.txt",
+      "maps": "benchmark-100/prepared/ampc/maps"
+    },
+    {
+      "target": "ampc",
+      "ligand": "212",
+      "source_index": 3,
+      "pdbqt": "benchmark-100/prepared/ampc/ligands/04_212.pdbqt",
+      "heavy_atoms": 22,
+      "rotatable_bonds": 6,
+      "branches": 6,
+      "atom_types": [
+        "A",
+        "C",
+        "N",
+        "OA",
+        "SA"
+      ],
+      "receptor": "benchmark-100/prepared/ampc/receptor.pdbqt",
+      "config": "benchmark-100/prepared/ampc/receptor.box.txt",
+      "maps": "benchmark-100/prepared/ampc/maps"
+    },
+    {
+      "target": "ampc",
+      "ligand": "212",
+      "source_index": 4,
+      "pdbqt": "benchmark-100/prepared/ampc/ligands/05_212.pdbqt",
+      "heavy_atoms": 22,
+      "rotatable_bonds": 6,
+      "branches": 6,
+      "atom_types": [
+        "A",
+        "C",
+        "N",
+        "OA",
+        "SA"
+      ],
+      "receptor": "benchmark-100/prepared/ampc/receptor.pdbqt",
+      "config": "benchmark-100/prepared/ampc/receptor.box.txt",
+      "maps": "benchmark-100/prepared/ampc/maps"
+    },
+    {
+      "target": "ampc",
+      "ligand": "213",
+      "source_index": 5,
+      "pdbqt": "benchmark-100/prepared/ampc/ligands/06_213.pdbqt",
+      "heavy_atoms": 22,
+      "rotatable_bonds": 5,
+      "branches": 5,
+      "atom_types": [
+        "A",
+        "C",
+        "N",
+        "OA"
+      ],
+      "receptor": "benchmark-100/prepared/ampc/receptor.pdbqt",
+      "config": "benchmark-100/prepared/ampc/receptor.box.txt",
+      "maps": "benchmark-100/prepared/ampc/maps"
+    },
+    {
+      "target": "ampc",
+      "ligand": "213",
+      "source_index": 6,
+      "pdbqt": "benchmark-100/prepared/ampc/ligands/07_213.pdbqt",
+      "heavy_atoms": 22,
+      "rotatable_bonds": 5,
+      "branches": 5,
+      "atom_types": [
+        "A",
+        "C",
+        "N",
+        "OA"
+      ],
+      "receptor": "benchmark-100/prepared/ampc/receptor.pdbqt",
+      "config": "benchmark-100/prepared/ampc/receptor.box.txt",
+      "maps": "benchmark-100/prepared/ampc/maps"
+    },
+    {
+      "target": "ampc",
+      "ligand": "210",
+      "source_index": 7,
+      "pdbqt": "benchmark-100/prepared/ampc/ligands/08_210.pdbqt",
+      "heavy_atoms": 28,
+      "rotatable_bonds": 5,
+      "branches": 5,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "OA"
+      ],
+      "receptor": "benchmark-100/prepared/ampc/receptor.pdbqt",
+      "config": "benchmark-100/prepared/ampc/receptor.box.txt",
+      "maps": "benchmark-100/prepared/ampc/maps"
+    },
+    {
+      "target": "ampc",
+      "ligand": "211",
+      "source_index": 8,
+      "pdbqt": "benchmark-100/prepared/ampc/ligands/09_211.pdbqt",
+      "heavy_atoms": 29,
+      "rotatable_bonds": 5,
+      "branches": 5,
+      "atom_types": [
+        "A",
+        "C",
+        "N",
+        "OA"
+      ],
+      "receptor": "benchmark-100/prepared/ampc/receptor.pdbqt",
+      "config": "benchmark-100/prepared/ampc/receptor.box.txt",
+      "maps": "benchmark-100/prepared/ampc/maps"
+    },
+    {
+      "target": "ampc",
+      "ligand": "313",
+      "source_index": 9,
+      "pdbqt": "benchmark-100/prepared/ampc/ligands/10_313.pdbqt",
+      "heavy_atoms": 8,
+      "rotatable_bonds": 2,
+      "branches": 2,
+      "atom_types": [
+        "C",
+        "OA",
+        "P"
+      ],
+      "receptor": "benchmark-100/prepared/ampc/receptor.pdbqt",
+      "config": "benchmark-100/prepared/ampc/receptor.box.txt",
+      "maps": "benchmark-100/prepared/ampc/maps"
+    },
+    {
+      "target": "ampc",
+      "ligand": "312",
+      "source_index": 10,
+      "pdbqt": "benchmark-100/prepared/ampc/ligands/11_312.pdbqt",
+      "heavy_atoms": 14,
+      "rotatable_bonds": 2,
+      "branches": 2,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "NA",
+        "OA"
+      ],
+      "receptor": "benchmark-100/prepared/ampc/receptor.pdbqt",
+      "config": "benchmark-100/prepared/ampc/receptor.box.txt",
+      "maps": "benchmark-100/prepared/ampc/maps"
+    },
+    {
+      "target": "ampc",
+      "ligand": "310",
+      "source_index": 11,
+      "pdbqt": "benchmark-100/prepared/ampc/ligands/12_310.pdbqt",
+      "heavy_atoms": 17,
+      "rotatable_bonds": 3,
+      "branches": 3,
+      "atom_types": [
+        "A",
+        "C",
+        "N",
+        "OA"
+      ],
+      "receptor": "benchmark-100/prepared/ampc/receptor.pdbqt",
+      "config": "benchmark-100/prepared/ampc/receptor.box.txt",
+      "maps": "benchmark-100/prepared/ampc/maps"
+    },
+    {
+      "target": "ampc",
+      "ligand": "317",
+      "source_index": 12,
+      "pdbqt": "benchmark-100/prepared/ampc/ligands/13_317.pdbqt",
+      "heavy_atoms": 16,
+      "rotatable_bonds": 3,
+      "branches": 3,
+      "atom_types": [
+        "A",
+        "C",
+        "Cl",
+        "HD",
+        "N",
+        "NA",
+        "OA"
+      ],
+      "receptor": "benchmark-100/prepared/ampc/receptor.pdbqt",
+      "config": "benchmark-100/prepared/ampc/receptor.box.txt",
+      "maps": "benchmark-100/prepared/ampc/maps"
+    },
+    {
+      "target": "ampc",
+      "ligand": "314",
+      "source_index": 13,
+      "pdbqt": "benchmark-100/prepared/ampc/ligands/14_314.pdbqt",
+      "heavy_atoms": 16,
+      "rotatable_bonds": 1,
+      "branches": 1,
+      "atom_types": [
+        "C",
+        "OA",
+        "S"
+      ],
+      "receptor": "benchmark-100/prepared/ampc/receptor.pdbqt",
+      "config": "benchmark-100/prepared/ampc/receptor.box.txt",
+      "maps": "benchmark-100/prepared/ampc/maps"
+    },
+    {
+      "target": "ampc",
+      "ligand": "115",
+      "source_index": 14,
+      "pdbqt": "benchmark-100/prepared/ampc/ligands/15_115.pdbqt",
+      "heavy_atoms": 22,
+      "rotatable_bonds": 5,
+      "branches": 5,
+      "atom_types": [
+        "A",
+        "C",
+        "Cl",
+        "NA",
+        "OA",
+        "S"
+      ],
+      "receptor": "benchmark-100/prepared/ampc/receptor.pdbqt",
+      "config": "benchmark-100/prepared/ampc/receptor.box.txt",
+      "maps": "benchmark-100/prepared/ampc/maps"
+    },
+    {
+      "target": "ampc",
+      "ligand": "114",
+      "source_index": 15,
+      "pdbqt": "benchmark-100/prepared/ampc/ligands/16_114.pdbqt",
+      "heavy_atoms": 21,
+      "rotatable_bonds": 5,
+      "branches": 5,
+      "atom_types": [
+        "A",
+        "C",
+        "NA",
+        "OA",
+        "S"
+      ],
+      "receptor": "benchmark-100/prepared/ampc/receptor.pdbqt",
+      "config": "benchmark-100/prepared/ampc/receptor.box.txt",
+      "maps": "benchmark-100/prepared/ampc/maps"
+    },
+    {
+      "target": "ampc",
+      "ligand": "117",
+      "source_index": 16,
+      "pdbqt": "benchmark-100/prepared/ampc/ligands/17_117.pdbqt",
+      "heavy_atoms": 21,
+      "rotatable_bonds": 5,
+      "branches": 5,
+      "atom_types": [
+        "A",
+        "C",
+        "N",
+        "NA",
+        "OA",
+        "S"
+      ],
+      "receptor": "benchmark-100/prepared/ampc/receptor.pdbqt",
+      "config": "benchmark-100/prepared/ampc/receptor.box.txt",
+      "maps": "benchmark-100/prepared/ampc/maps"
+    },
+    {
+      "target": "ampc",
+      "ligand": "116",
+      "source_index": 17,
+      "pdbqt": "benchmark-100/prepared/ampc/ligands/18_116.pdbqt",
+      "heavy_atoms": 22,
+      "rotatable_bonds": 6,
+      "branches": 6,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "OA",
+        "S"
+      ],
+      "receptor": "benchmark-100/prepared/ampc/receptor.pdbqt",
+      "config": "benchmark-100/prepared/ampc/receptor.box.txt",
+      "maps": "benchmark-100/prepared/ampc/maps"
+    },
+    {
+      "target": "ampc",
+      "ligand": "116",
+      "source_index": 18,
+      "pdbqt": "benchmark-100/prepared/ampc/ligands/19_116.pdbqt",
+      "heavy_atoms": 22,
+      "rotatable_bonds": 6,
+      "branches": 6,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "NA",
+        "OA",
+        "S"
+      ],
+      "receptor": "benchmark-100/prepared/ampc/receptor.pdbqt",
+      "config": "benchmark-100/prepared/ampc/receptor.box.txt",
+      "maps": "benchmark-100/prepared/ampc/maps"
+    },
+    {
+      "target": "ampc",
+      "ligand": "111",
+      "source_index": 19,
+      "pdbqt": "benchmark-100/prepared/ampc/ligands/20_111.pdbqt",
+      "heavy_atoms": 19,
+      "rotatable_bonds": 5,
+      "branches": 5,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "NA",
+        "OA",
+        "S"
+      ],
+      "receptor": "benchmark-100/prepared/ampc/receptor.pdbqt",
+      "config": "benchmark-100/prepared/ampc/receptor.box.txt",
+      "maps": "benchmark-100/prepared/ampc/maps"
+    },
+    {
+      "target": "cxcr4",
+      "ligand": "CHEMBL1089844",
+      "source_index": 0,
+      "pdbqt": "benchmark-100/prepared/cxcr4/ligands/01_CHEMBL1089844.pdbqt",
+      "heavy_atoms": 26,
+      "rotatable_bonds": 7,
+      "branches": 7,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "NA"
+      ],
+      "receptor": "benchmark-100/prepared/cxcr4/receptor.pdbqt",
+      "config": "benchmark-100/prepared/cxcr4/receptor.box.txt",
+      "maps": "benchmark-100/prepared/cxcr4/maps"
+    },
+    {
+      "target": "cxcr4",
+      "ligand": "CHEMBL1089844",
+      "source_index": 1,
+      "pdbqt": "benchmark-100/prepared/cxcr4/ligands/02_CHEMBL1089844.pdbqt",
+      "heavy_atoms": 26,
+      "rotatable_bonds": 7,
+      "branches": 7,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "NA"
+      ],
+      "receptor": "benchmark-100/prepared/cxcr4/receptor.pdbqt",
+      "config": "benchmark-100/prepared/cxcr4/receptor.box.txt",
+      "maps": "benchmark-100/prepared/cxcr4/maps"
+    },
+    {
+      "target": "cxcr4",
+      "ligand": "CHEMBL1089844",
+      "source_index": 2,
+      "pdbqt": "benchmark-100/prepared/cxcr4/ligands/03_CHEMBL1089844.pdbqt",
+      "heavy_atoms": 26,
+      "rotatable_bonds": 7,
+      "branches": 7,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "NA"
+      ],
+      "receptor": "benchmark-100/prepared/cxcr4/receptor.pdbqt",
+      "config": "benchmark-100/prepared/cxcr4/receptor.box.txt",
+      "maps": "benchmark-100/prepared/cxcr4/maps"
+    },
+    {
+      "target": "cxcr4",
+      "ligand": "CHEMBL1089844",
+      "source_index": 3,
+      "pdbqt": "benchmark-100/prepared/cxcr4/ligands/04_CHEMBL1089844.pdbqt",
+      "heavy_atoms": 26,
+      "rotatable_bonds": 7,
+      "branches": 7,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "NA"
+      ],
+      "receptor": "benchmark-100/prepared/cxcr4/receptor.pdbqt",
+      "config": "benchmark-100/prepared/cxcr4/receptor.box.txt",
+      "maps": "benchmark-100/prepared/cxcr4/maps"
+    },
+    {
+      "target": "cxcr4",
+      "ligand": "CHEMBL1089845",
+      "source_index": 4,
+      "pdbqt": "benchmark-100/prepared/cxcr4/ligands/05_CHEMBL1089845.pdbqt",
+      "heavy_atoms": 26,
+      "rotatable_bonds": 7,
+      "branches": 7,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "NA"
+      ],
+      "receptor": "benchmark-100/prepared/cxcr4/receptor.pdbqt",
+      "config": "benchmark-100/prepared/cxcr4/receptor.box.txt",
+      "maps": "benchmark-100/prepared/cxcr4/maps"
+    },
+    {
+      "target": "cxcr4",
+      "ligand": "CHEMBL1089845",
+      "source_index": 5,
+      "pdbqt": "benchmark-100/prepared/cxcr4/ligands/06_CHEMBL1089845.pdbqt",
+      "heavy_atoms": 26,
+      "rotatable_bonds": 7,
+      "branches": 7,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "NA"
+      ],
+      "receptor": "benchmark-100/prepared/cxcr4/receptor.pdbqt",
+      "config": "benchmark-100/prepared/cxcr4/receptor.box.txt",
+      "maps": "benchmark-100/prepared/cxcr4/maps"
+    },
+    {
+      "target": "cxcr4",
+      "ligand": "CHEMBL1089845",
+      "source_index": 6,
+      "pdbqt": "benchmark-100/prepared/cxcr4/ligands/07_CHEMBL1089845.pdbqt",
+      "heavy_atoms": 26,
+      "rotatable_bonds": 7,
+      "branches": 7,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "NA"
+      ],
+      "receptor": "benchmark-100/prepared/cxcr4/receptor.pdbqt",
+      "config": "benchmark-100/prepared/cxcr4/receptor.box.txt",
+      "maps": "benchmark-100/prepared/cxcr4/maps"
+    },
+    {
+      "target": "cxcr4",
+      "ligand": "CHEMBL1089845",
+      "source_index": 7,
+      "pdbqt": "benchmark-100/prepared/cxcr4/ligands/08_CHEMBL1089845.pdbqt",
+      "heavy_atoms": 26,
+      "rotatable_bonds": 7,
+      "branches": 7,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "NA"
+      ],
+      "receptor": "benchmark-100/prepared/cxcr4/receptor.pdbqt",
+      "config": "benchmark-100/prepared/cxcr4/receptor.box.txt",
+      "maps": "benchmark-100/prepared/cxcr4/maps"
+    },
+    {
+      "target": "cxcr4",
+      "ligand": "CHEMBL1089846",
+      "source_index": 8,
+      "pdbqt": "benchmark-100/prepared/cxcr4/ligands/09_CHEMBL1089846.pdbqt",
+      "heavy_atoms": 26,
+      "rotatable_bonds": 5,
+      "branches": 6,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "NA"
+      ],
+      "receptor": "benchmark-100/prepared/cxcr4/receptor.pdbqt",
+      "config": "benchmark-100/prepared/cxcr4/receptor.box.txt",
+      "maps": "benchmark-100/prepared/cxcr4/maps"
+    },
+    {
+      "target": "cxcr4",
+      "ligand": "CHEMBL1089846",
+      "source_index": 9,
+      "pdbqt": "benchmark-100/prepared/cxcr4/ligands/10_CHEMBL1089846.pdbqt",
+      "heavy_atoms": 26,
+      "rotatable_bonds": 5,
+      "branches": 6,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "NA"
+      ],
+      "receptor": "benchmark-100/prepared/cxcr4/receptor.pdbqt",
+      "config": "benchmark-100/prepared/cxcr4/receptor.box.txt",
+      "maps": "benchmark-100/prepared/cxcr4/maps"
+    },
+    {
+      "target": "cxcr4",
+      "ligand": "CHEMBL1089846",
+      "source_index": 10,
+      "pdbqt": "benchmark-100/prepared/cxcr4/ligands/11_CHEMBL1089846.pdbqt",
+      "heavy_atoms": 26,
+      "rotatable_bonds": 5,
+      "branches": 6,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "NA"
+      ],
+      "receptor": "benchmark-100/prepared/cxcr4/receptor.pdbqt",
+      "config": "benchmark-100/prepared/cxcr4/receptor.box.txt",
+      "maps": "benchmark-100/prepared/cxcr4/maps"
+    },
+    {
+      "target": "cxcr4",
+      "ligand": "CHEMBL1089846",
+      "source_index": 11,
+      "pdbqt": "benchmark-100/prepared/cxcr4/ligands/12_CHEMBL1089846.pdbqt",
+      "heavy_atoms": 26,
+      "rotatable_bonds": 5,
+      "branches": 6,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "NA"
+      ],
+      "receptor": "benchmark-100/prepared/cxcr4/receptor.pdbqt",
+      "config": "benchmark-100/prepared/cxcr4/receptor.box.txt",
+      "maps": "benchmark-100/prepared/cxcr4/maps"
+    },
+    {
+      "target": "cxcr4",
+      "ligand": "CHEMBL1093008",
+      "source_index": 15,
+      "pdbqt": "benchmark-100/prepared/cxcr4/ligands/13_CHEMBL1093008.pdbqt",
+      "heavy_atoms": 30,
+      "rotatable_bonds": 7,
+      "branches": 7,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "NA"
+      ],
+      "receptor": "benchmark-100/prepared/cxcr4/receptor.pdbqt",
+      "config": "benchmark-100/prepared/cxcr4/receptor.box.txt",
+      "maps": "benchmark-100/prepared/cxcr4/maps"
+    },
+    {
+      "target": "cxcr4",
+      "ligand": "CHEMBL1093008",
+      "source_index": 16,
+      "pdbqt": "benchmark-100/prepared/cxcr4/ligands/14_CHEMBL1093008.pdbqt",
+      "heavy_atoms": 30,
+      "rotatable_bonds": 7,
+      "branches": 7,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "NA"
+      ],
+      "receptor": "benchmark-100/prepared/cxcr4/receptor.pdbqt",
+      "config": "benchmark-100/prepared/cxcr4/receptor.box.txt",
+      "maps": "benchmark-100/prepared/cxcr4/maps"
+    },
+    {
+      "target": "cxcr4",
+      "ligand": "CHEMBL1093008",
+      "source_index": 17,
+      "pdbqt": "benchmark-100/prepared/cxcr4/ligands/15_CHEMBL1093008.pdbqt",
+      "heavy_atoms": 30,
+      "rotatable_bonds": 7,
+      "branches": 7,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "NA"
+      ],
+      "receptor": "benchmark-100/prepared/cxcr4/receptor.pdbqt",
+      "config": "benchmark-100/prepared/cxcr4/receptor.box.txt",
+      "maps": "benchmark-100/prepared/cxcr4/maps"
+    },
+    {
+      "target": "cxcr4",
+      "ligand": "CHEMBL1093008",
+      "source_index": 18,
+      "pdbqt": "benchmark-100/prepared/cxcr4/ligands/16_CHEMBL1093008.pdbqt",
+      "heavy_atoms": 30,
+      "rotatable_bonds": 7,
+      "branches": 7,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "NA"
+      ],
+      "receptor": "benchmark-100/prepared/cxcr4/receptor.pdbqt",
+      "config": "benchmark-100/prepared/cxcr4/receptor.box.txt",
+      "maps": "benchmark-100/prepared/cxcr4/maps"
+    },
+    {
+      "target": "cxcr4",
+      "ligand": "CHEMBL577268",
+      "source_index": 19,
+      "pdbqt": "benchmark-100/prepared/cxcr4/ligands/17_CHEMBL577268.pdbqt",
+      "heavy_atoms": 26,
+      "rotatable_bonds": 7,
+      "branches": 7,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "NA"
+      ],
+      "receptor": "benchmark-100/prepared/cxcr4/receptor.pdbqt",
+      "config": "benchmark-100/prepared/cxcr4/receptor.box.txt",
+      "maps": "benchmark-100/prepared/cxcr4/maps"
+    },
+    {
+      "target": "cxcr4",
+      "ligand": "CHEMBL577268",
+      "source_index": 20,
+      "pdbqt": "benchmark-100/prepared/cxcr4/ligands/18_CHEMBL577268.pdbqt",
+      "heavy_atoms": 26,
+      "rotatable_bonds": 7,
+      "branches": 7,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "NA"
+      ],
+      "receptor": "benchmark-100/prepared/cxcr4/receptor.pdbqt",
+      "config": "benchmark-100/prepared/cxcr4/receptor.box.txt",
+      "maps": "benchmark-100/prepared/cxcr4/maps"
+    },
+    {
+      "target": "cxcr4",
+      "ligand": "CHEMBL577268",
+      "source_index": 21,
+      "pdbqt": "benchmark-100/prepared/cxcr4/ligands/19_CHEMBL577268.pdbqt",
+      "heavy_atoms": 26,
+      "rotatable_bonds": 7,
+      "branches": 7,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "NA"
+      ],
+      "receptor": "benchmark-100/prepared/cxcr4/receptor.pdbqt",
+      "config": "benchmark-100/prepared/cxcr4/receptor.box.txt",
+      "maps": "benchmark-100/prepared/cxcr4/maps"
+    },
+    {
+      "target": "cxcr4",
+      "ligand": "CHEMBL577268",
+      "source_index": 22,
+      "pdbqt": "benchmark-100/prepared/cxcr4/ligands/20_CHEMBL577268.pdbqt",
+      "heavy_atoms": 26,
+      "rotatable_bonds": 7,
+      "branches": 7,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "NA"
+      ],
+      "receptor": "benchmark-100/prepared/cxcr4/receptor.pdbqt",
+      "config": "benchmark-100/prepared/cxcr4/receptor.box.txt",
+      "maps": "benchmark-100/prepared/cxcr4/maps"
+    },
+    {
+      "target": "gcr",
+      "ligand": "CHEMBL436848",
+      "source_index": 0,
+      "pdbqt": "benchmark-100/prepared/gcr/ligands/01_CHEMBL436848.pdbqt",
+      "heavy_atoms": 24,
+      "rotatable_bonds": 1,
+      "branches": 1,
+      "atom_types": [
+        "A",
+        "C",
+        "Cl",
+        "HD",
+        "N"
+      ],
+      "receptor": "benchmark-100/prepared/gcr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/gcr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/gcr/maps"
+    },
+    {
+      "target": "gcr",
+      "ligand": "CHEMBL436848",
+      "source_index": 1,
+      "pdbqt": "benchmark-100/prepared/gcr/ligands/02_CHEMBL436848.pdbqt",
+      "heavy_atoms": 24,
+      "rotatable_bonds": 1,
+      "branches": 1,
+      "atom_types": [
+        "A",
+        "C",
+        "Cl",
+        "HD",
+        "N"
+      ],
+      "receptor": "benchmark-100/prepared/gcr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/gcr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/gcr/maps"
+    },
+    {
+      "target": "gcr",
+      "ligand": "CHEMBL1393",
+      "source_index": 2,
+      "pdbqt": "benchmark-100/prepared/gcr/ligands/03_CHEMBL1393.pdbqt",
+      "heavy_atoms": 29,
+      "rotatable_bonds": 1,
+      "branches": 2,
+      "atom_types": [
+        "C",
+        "OA",
+        "SA"
+      ],
+      "receptor": "benchmark-100/prepared/gcr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/gcr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/gcr/maps"
+    },
+    {
+      "target": "gcr",
+      "ligand": "CHEMBL404192",
+      "source_index": 3,
+      "pdbqt": "benchmark-100/prepared/gcr/ligands/04_CHEMBL404192.pdbqt",
+      "heavy_atoms": 34,
+      "rotatable_bonds": 4,
+      "branches": 4,
+      "atom_types": [
+        "A",
+        "C",
+        "F",
+        "N",
+        "NA"
+      ],
+      "receptor": "benchmark-100/prepared/gcr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/gcr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/gcr/maps"
+    },
+    {
+      "target": "gcr",
+      "ligand": "CHEMBL404192",
+      "source_index": 4,
+      "pdbqt": "benchmark-100/prepared/gcr/ligands/05_CHEMBL404192.pdbqt",
+      "heavy_atoms": 34,
+      "rotatable_bonds": 4,
+      "branches": 4,
+      "atom_types": [
+        "A",
+        "C",
+        "F",
+        "N",
+        "NA"
+      ],
+      "receptor": "benchmark-100/prepared/gcr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/gcr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/gcr/maps"
+    },
+    {
+      "target": "gcr",
+      "ligand": "CHEMBL357651",
+      "source_index": 5,
+      "pdbqt": "benchmark-100/prepared/gcr/ligands/06_CHEMBL357651.pdbqt",
+      "heavy_atoms": 29,
+      "rotatable_bonds": 2,
+      "branches": 2,
+      "atom_types": [
+        "C",
+        "F",
+        "HD",
+        "OA",
+        "SA"
+      ],
+      "receptor": "benchmark-100/prepared/gcr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/gcr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/gcr/maps"
+    },
+    {
+      "target": "gcr",
+      "ligand": "CHEMBL357651",
+      "source_index": 6,
+      "pdbqt": "benchmark-100/prepared/gcr/ligands/07_CHEMBL357651.pdbqt",
+      "heavy_atoms": 29,
+      "rotatable_bonds": 2,
+      "branches": 2,
+      "atom_types": [
+        "C",
+        "F",
+        "HD",
+        "OA",
+        "SA"
+      ],
+      "receptor": "benchmark-100/prepared/gcr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/gcr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/gcr/maps"
+    },
+    {
+      "target": "gcr",
+      "ligand": "CHEMBL357651",
+      "source_index": 7,
+      "pdbqt": "benchmark-100/prepared/gcr/ligands/08_CHEMBL357651.pdbqt",
+      "heavy_atoms": 29,
+      "rotatable_bonds": 2,
+      "branches": 2,
+      "atom_types": [
+        "C",
+        "F",
+        "HD",
+        "OA",
+        "SA"
+      ],
+      "receptor": "benchmark-100/prepared/gcr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/gcr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/gcr/maps"
+    },
+    {
+      "target": "gcr",
+      "ligand": "CHEMBL357651",
+      "source_index": 8,
+      "pdbqt": "benchmark-100/prepared/gcr/ligands/09_CHEMBL357651.pdbqt",
+      "heavy_atoms": 29,
+      "rotatable_bonds": 2,
+      "branches": 2,
+      "atom_types": [
+        "C",
+        "F",
+        "HD",
+        "OA",
+        "SA"
+      ],
+      "receptor": "benchmark-100/prepared/gcr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/gcr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/gcr/maps"
+    },
+    {
+      "target": "gcr",
+      "ligand": "CHEMBL268568",
+      "source_index": 9,
+      "pdbqt": "benchmark-100/prepared/gcr/ligands/10_CHEMBL268568.pdbqt",
+      "heavy_atoms": 22,
+      "rotatable_bonds": 2,
+      "branches": 3,
+      "atom_types": [
+        "A",
+        "C",
+        "F",
+        "HD",
+        "N",
+        "OA"
+      ],
+      "receptor": "benchmark-100/prepared/gcr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/gcr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/gcr/maps"
+    },
+    {
+      "target": "gcr",
+      "ligand": "CHEMBL268568",
+      "source_index": 10,
+      "pdbqt": "benchmark-100/prepared/gcr/ligands/11_CHEMBL268568.pdbqt",
+      "heavy_atoms": 22,
+      "rotatable_bonds": 2,
+      "branches": 3,
+      "atom_types": [
+        "A",
+        "C",
+        "F",
+        "HD",
+        "N",
+        "OA"
+      ],
+      "receptor": "benchmark-100/prepared/gcr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/gcr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/gcr/maps"
+    },
+    {
+      "target": "gcr",
+      "ligand": "CHEMBL268568",
+      "source_index": 11,
+      "pdbqt": "benchmark-100/prepared/gcr/ligands/12_CHEMBL268568.pdbqt",
+      "heavy_atoms": 22,
+      "rotatable_bonds": 2,
+      "branches": 3,
+      "atom_types": [
+        "A",
+        "C",
+        "F",
+        "HD",
+        "N",
+        "OA"
+      ],
+      "receptor": "benchmark-100/prepared/gcr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/gcr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/gcr/maps"
+    },
+    {
+      "target": "gcr",
+      "ligand": "CHEMBL268568",
+      "source_index": 12,
+      "pdbqt": "benchmark-100/prepared/gcr/ligands/13_CHEMBL268568.pdbqt",
+      "heavy_atoms": 22,
+      "rotatable_bonds": 2,
+      "branches": 3,
+      "atom_types": [
+        "A",
+        "C",
+        "F",
+        "HD",
+        "N",
+        "OA"
+      ],
+      "receptor": "benchmark-100/prepared/gcr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/gcr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/gcr/maps"
+    },
+    {
+      "target": "gcr",
+      "ligand": "CHEMBL231502",
+      "source_index": 13,
+      "pdbqt": "benchmark-100/prepared/gcr/ligands/14_CHEMBL231502.pdbqt",
+      "heavy_atoms": 27,
+      "rotatable_bonds": 4,
+      "branches": 4,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "OA"
+      ],
+      "receptor": "benchmark-100/prepared/gcr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/gcr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/gcr/maps"
+    },
+    {
+      "target": "gcr",
+      "ligand": "CHEMBL231502",
+      "source_index": 14,
+      "pdbqt": "benchmark-100/prepared/gcr/ligands/15_CHEMBL231502.pdbqt",
+      "heavy_atoms": 27,
+      "rotatable_bonds": 4,
+      "branches": 4,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "OA"
+      ],
+      "receptor": "benchmark-100/prepared/gcr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/gcr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/gcr/maps"
+    },
+    {
+      "target": "gcr",
+      "ligand": "CHEMBL396253",
+      "source_index": 15,
+      "pdbqt": "benchmark-100/prepared/gcr/ligands/16_CHEMBL396253.pdbqt",
+      "heavy_atoms": 26,
+      "rotatable_bonds": 4,
+      "branches": 4,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "OA"
+      ],
+      "receptor": "benchmark-100/prepared/gcr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/gcr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/gcr/maps"
+    },
+    {
+      "target": "gcr",
+      "ligand": "CHEMBL396253",
+      "source_index": 16,
+      "pdbqt": "benchmark-100/prepared/gcr/ligands/17_CHEMBL396253.pdbqt",
+      "heavy_atoms": 26,
+      "rotatable_bonds": 4,
+      "branches": 4,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "OA"
+      ],
+      "receptor": "benchmark-100/prepared/gcr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/gcr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/gcr/maps"
+    },
+    {
+      "target": "gcr",
+      "ligand": "CHEMBL49632",
+      "source_index": 17,
+      "pdbqt": "benchmark-100/prepared/gcr/ligands/18_CHEMBL49632.pdbqt",
+      "heavy_atoms": 30,
+      "rotatable_bonds": 3,
+      "branches": 3,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "OA"
+      ],
+      "receptor": "benchmark-100/prepared/gcr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/gcr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/gcr/maps"
+    },
+    {
+      "target": "gcr",
+      "ligand": "CHEMBL49632",
+      "source_index": 18,
+      "pdbqt": "benchmark-100/prepared/gcr/ligands/19_CHEMBL49632.pdbqt",
+      "heavy_atoms": 30,
+      "rotatable_bonds": 3,
+      "branches": 3,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "OA"
+      ],
+      "receptor": "benchmark-100/prepared/gcr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/gcr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/gcr/maps"
+    },
+    {
+      "target": "gcr",
+      "ligand": "CHEMBL414449",
+      "source_index": 19,
+      "pdbqt": "benchmark-100/prepared/gcr/ligands/20_CHEMBL414449.pdbqt",
+      "heavy_atoms": 36,
+      "rotatable_bonds": 5,
+      "branches": 5,
+      "atom_types": [
+        "C",
+        "F",
+        "HD",
+        "OA",
+        "SA"
+      ],
+      "receptor": "benchmark-100/prepared/gcr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/gcr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/gcr/maps"
+    },
+    {
+      "target": "hivpr",
+      "ligand": "CHEMBL171551",
+      "source_index": 0,
+      "pdbqt": "benchmark-100/prepared/hivpr/ligands/01_CHEMBL171551.pdbqt",
+      "heavy_atoms": 27,
+      "rotatable_bonds": 7,
+      "branches": 7,
+      "atom_types": [
+        "A",
+        "C",
+        "OA",
+        "SA"
+      ],
+      "receptor": "benchmark-100/prepared/hivpr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivpr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivpr/maps"
+    },
+    {
+      "target": "hivpr",
+      "ligand": "CHEMBL171551",
+      "source_index": 1,
+      "pdbqt": "benchmark-100/prepared/hivpr/ligands/02_CHEMBL171551.pdbqt",
+      "heavy_atoms": 27,
+      "rotatable_bonds": 8,
+      "branches": 8,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "OA",
+        "SA"
+      ],
+      "receptor": "benchmark-100/prepared/hivpr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivpr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivpr/maps"
+    },
+    {
+      "target": "hivpr",
+      "ligand": "CHEMBL171551",
+      "source_index": 2,
+      "pdbqt": "benchmark-100/prepared/hivpr/ligands/03_CHEMBL171551.pdbqt",
+      "heavy_atoms": 27,
+      "rotatable_bonds": 7,
+      "branches": 7,
+      "atom_types": [
+        "A",
+        "C",
+        "OA",
+        "SA"
+      ],
+      "receptor": "benchmark-100/prepared/hivpr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivpr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivpr/maps"
+    },
+    {
+      "target": "hivpr",
+      "ligand": "CHEMBL171551",
+      "source_index": 3,
+      "pdbqt": "benchmark-100/prepared/hivpr/ligands/04_CHEMBL171551.pdbqt",
+      "heavy_atoms": 27,
+      "rotatable_bonds": 8,
+      "branches": 8,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "OA",
+        "SA"
+      ],
+      "receptor": "benchmark-100/prepared/hivpr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivpr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivpr/maps"
+    },
+    {
+      "target": "hivpr",
+      "ligand": "CHEMBL80556",
+      "source_index": 14,
+      "pdbqt": "benchmark-100/prepared/hivpr/ligands/05_CHEMBL80556.pdbqt",
+      "heavy_atoms": 36,
+      "rotatable_bonds": 7,
+      "branches": 7,
+      "atom_types": [
+        "A",
+        "C",
+        "NA",
+        "OA",
+        "S"
+      ],
+      "receptor": "benchmark-100/prepared/hivpr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivpr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivpr/maps"
+    },
+    {
+      "target": "hivpr",
+      "ligand": "CHEMBL80556",
+      "source_index": 15,
+      "pdbqt": "benchmark-100/prepared/hivpr/ligands/06_CHEMBL80556.pdbqt",
+      "heavy_atoms": 36,
+      "rotatable_bonds": 8,
+      "branches": 8,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "NA",
+        "OA",
+        "S"
+      ],
+      "receptor": "benchmark-100/prepared/hivpr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivpr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivpr/maps"
+    },
+    {
+      "target": "hivpr",
+      "ligand": "CHEMBL80556",
+      "source_index": 16,
+      "pdbqt": "benchmark-100/prepared/hivpr/ligands/07_CHEMBL80556.pdbqt",
+      "heavy_atoms": 36,
+      "rotatable_bonds": 7,
+      "branches": 7,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "NA",
+        "OA",
+        "S"
+      ],
+      "receptor": "benchmark-100/prepared/hivpr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivpr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivpr/maps"
+    },
+    {
+      "target": "hivpr",
+      "ligand": "CHEMBL80556",
+      "source_index": 17,
+      "pdbqt": "benchmark-100/prepared/hivpr/ligands/08_CHEMBL80556.pdbqt",
+      "heavy_atoms": 36,
+      "rotatable_bonds": 7,
+      "branches": 7,
+      "atom_types": [
+        "A",
+        "C",
+        "NA",
+        "OA",
+        "S"
+      ],
+      "receptor": "benchmark-100/prepared/hivpr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivpr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivpr/maps"
+    },
+    {
+      "target": "hivpr",
+      "ligand": "CHEMBL80556",
+      "source_index": 18,
+      "pdbqt": "benchmark-100/prepared/hivpr/ligands/09_CHEMBL80556.pdbqt",
+      "heavy_atoms": 36,
+      "rotatable_bonds": 8,
+      "branches": 8,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "NA",
+        "OA",
+        "S"
+      ],
+      "receptor": "benchmark-100/prepared/hivpr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivpr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivpr/maps"
+    },
+    {
+      "target": "hivpr",
+      "ligand": "CHEMBL80556",
+      "source_index": 19,
+      "pdbqt": "benchmark-100/prepared/hivpr/ligands/10_CHEMBL80556.pdbqt",
+      "heavy_atoms": 36,
+      "rotatable_bonds": 7,
+      "branches": 7,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "NA",
+        "OA",
+        "S"
+      ],
+      "receptor": "benchmark-100/prepared/hivpr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivpr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivpr/maps"
+    },
+    {
+      "target": "hivpr",
+      "ligand": "CHEMBL80362",
+      "source_index": 20,
+      "pdbqt": "benchmark-100/prepared/hivpr/ligands/11_CHEMBL80362.pdbqt",
+      "heavy_atoms": 38,
+      "rotatable_bonds": 7,
+      "branches": 7,
+      "atom_types": [
+        "A",
+        "C",
+        "NA",
+        "OA",
+        "S"
+      ],
+      "receptor": "benchmark-100/prepared/hivpr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivpr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivpr/maps"
+    },
+    {
+      "target": "hivpr",
+      "ligand": "CHEMBL80362",
+      "source_index": 21,
+      "pdbqt": "benchmark-100/prepared/hivpr/ligands/12_CHEMBL80362.pdbqt",
+      "heavy_atoms": 38,
+      "rotatable_bonds": 8,
+      "branches": 8,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "NA",
+        "OA",
+        "S"
+      ],
+      "receptor": "benchmark-100/prepared/hivpr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivpr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivpr/maps"
+    },
+    {
+      "target": "hivpr",
+      "ligand": "CHEMBL80362",
+      "source_index": 22,
+      "pdbqt": "benchmark-100/prepared/hivpr/ligands/13_CHEMBL80362.pdbqt",
+      "heavy_atoms": 38,
+      "rotatable_bonds": 7,
+      "branches": 7,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "NA",
+        "OA",
+        "S"
+      ],
+      "receptor": "benchmark-100/prepared/hivpr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivpr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivpr/maps"
+    },
+    {
+      "target": "hivpr",
+      "ligand": "CHEMBL80362",
+      "source_index": 23,
+      "pdbqt": "benchmark-100/prepared/hivpr/ligands/14_CHEMBL80362.pdbqt",
+      "heavy_atoms": 38,
+      "rotatable_bonds": 7,
+      "branches": 7,
+      "atom_types": [
+        "A",
+        "C",
+        "NA",
+        "OA",
+        "S"
+      ],
+      "receptor": "benchmark-100/prepared/hivpr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivpr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivpr/maps"
+    },
+    {
+      "target": "hivpr",
+      "ligand": "CHEMBL80362",
+      "source_index": 24,
+      "pdbqt": "benchmark-100/prepared/hivpr/ligands/15_CHEMBL80362.pdbqt",
+      "heavy_atoms": 38,
+      "rotatable_bonds": 8,
+      "branches": 8,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "NA",
+        "OA",
+        "S"
+      ],
+      "receptor": "benchmark-100/prepared/hivpr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivpr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivpr/maps"
+    },
+    {
+      "target": "hivpr",
+      "ligand": "CHEMBL80362",
+      "source_index": 25,
+      "pdbqt": "benchmark-100/prepared/hivpr/ligands/16_CHEMBL80362.pdbqt",
+      "heavy_atoms": 38,
+      "rotatable_bonds": 7,
+      "branches": 7,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "NA",
+        "OA",
+        "S"
+      ],
+      "receptor": "benchmark-100/prepared/hivpr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivpr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivpr/maps"
+    },
+    {
+      "target": "hivpr",
+      "ligand": "CHEMBL144742",
+      "source_index": 29,
+      "pdbqt": "benchmark-100/prepared/hivpr/ligands/17_CHEMBL144742.pdbqt",
+      "heavy_atoms": 24,
+      "rotatable_bonds": 3,
+      "branches": 3,
+      "atom_types": [
+        "A",
+        "C",
+        "Cl",
+        "HD",
+        "N",
+        "NA",
+        "OA",
+        "S",
+        "SA"
+      ],
+      "receptor": "benchmark-100/prepared/hivpr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivpr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivpr/maps"
+    },
+    {
+      "target": "hivpr",
+      "ligand": "CHEMBL144742",
+      "source_index": 30,
+      "pdbqt": "benchmark-100/prepared/hivpr/ligands/18_CHEMBL144742.pdbqt",
+      "heavy_atoms": 24,
+      "rotatable_bonds": 3,
+      "branches": 3,
+      "atom_types": [
+        "A",
+        "C",
+        "Cl",
+        "HD",
+        "N",
+        "OA",
+        "S",
+        "SA"
+      ],
+      "receptor": "benchmark-100/prepared/hivpr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivpr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivpr/maps"
+    },
+    {
+      "target": "hivpr",
+      "ligand": "CHEMBL124672",
+      "source_index": 35,
+      "pdbqt": "benchmark-100/prepared/hivpr/ligands/19_CHEMBL124672.pdbqt",
+      "heavy_atoms": 30,
+      "rotatable_bonds": 7,
+      "branches": 7,
+      "atom_types": [
+        "A",
+        "C",
+        "OA",
+        "SA"
+      ],
+      "receptor": "benchmark-100/prepared/hivpr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivpr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivpr/maps"
+    },
+    {
+      "target": "hivpr",
+      "ligand": "CHEMBL124672",
+      "source_index": 36,
+      "pdbqt": "benchmark-100/prepared/hivpr/ligands/20_CHEMBL124672.pdbqt",
+      "heavy_atoms": 30,
+      "rotatable_bonds": 7,
+      "branches": 7,
+      "atom_types": [
+        "A",
+        "C",
+        "OA",
+        "SA"
+      ],
+      "receptor": "benchmark-100/prepared/hivpr/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivpr/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivpr/maps"
+    },
+    {
+      "target": "hivrt",
+      "ligand": "CHEMBL262184",
+      "source_index": 32,
+      "pdbqt": "benchmark-100/prepared/hivrt/ligands/01_CHEMBL262184.pdbqt",
+      "heavy_atoms": 31,
+      "rotatable_bonds": 4,
+      "branches": 4,
+      "atom_types": [
+        "A",
+        "C",
+        "Cl",
+        "HD",
+        "N",
+        "NA",
+        "OA"
+      ],
+      "receptor": "benchmark-100/prepared/hivrt/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivrt/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivrt/maps"
+    },
+    {
+      "target": "hivrt",
+      "ligand": "CHEMBL144591",
+      "source_index": 33,
+      "pdbqt": "benchmark-100/prepared/hivrt/ligands/02_CHEMBL144591.pdbqt",
+      "heavy_atoms": 25,
+      "rotatable_bonds": 3,
+      "branches": 3,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "NA",
+        "OA"
+      ],
+      "receptor": "benchmark-100/prepared/hivrt/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivrt/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivrt/maps"
+    },
+    {
+      "target": "hivrt",
+      "ligand": "CHEMBL301370",
+      "source_index": 34,
+      "pdbqt": "benchmark-100/prepared/hivrt/ligands/03_CHEMBL301370.pdbqt",
+      "heavy_atoms": 20,
+      "rotatable_bonds": 2,
+      "branches": 4,
+      "atom_types": [
+        "A",
+        "C",
+        "F",
+        "HD",
+        "N",
+        "OA"
+      ],
+      "receptor": "benchmark-100/prepared/hivrt/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivrt/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivrt/maps"
+    },
+    {
+      "target": "hivrt",
+      "ligand": "CHEMBL56036",
+      "source_index": 35,
+      "pdbqt": "benchmark-100/prepared/hivrt/ligands/04_CHEMBL56036.pdbqt",
+      "heavy_atoms": 25,
+      "rotatable_bonds": 5,
+      "branches": 5,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "NA",
+        "OA",
+        "SA"
+      ],
+      "receptor": "benchmark-100/prepared/hivrt/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivrt/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivrt/maps"
+    },
+    {
+      "target": "hivrt",
+      "ligand": "CHEMBL192231",
+      "source_index": 36,
+      "pdbqt": "benchmark-100/prepared/hivrt/ligands/05_CHEMBL192231.pdbqt",
+      "heavy_atoms": 35,
+      "rotatable_bonds": 6,
+      "branches": 6,
+      "atom_types": [
+        "A",
+        "C",
+        "N",
+        "NA",
+        "OA"
+      ],
+      "receptor": "benchmark-100/prepared/hivrt/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivrt/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivrt/maps"
+    },
+    {
+      "target": "hivrt",
+      "ligand": "CHEMBL422123",
+      "source_index": 37,
+      "pdbqt": "benchmark-100/prepared/hivrt/ligands/06_CHEMBL422123.pdbqt",
+      "heavy_atoms": 25,
+      "rotatable_bonds": 2,
+      "branches": 2,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "NA",
+        "OA"
+      ],
+      "receptor": "benchmark-100/prepared/hivrt/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivrt/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivrt/maps"
+    },
+    {
+      "target": "hivrt",
+      "ligand": "CHEMBL320379",
+      "source_index": 38,
+      "pdbqt": "benchmark-100/prepared/hivrt/ligands/07_CHEMBL320379.pdbqt",
+      "heavy_atoms": 25,
+      "rotatable_bonds": 6,
+      "branches": 7,
+      "atom_types": [
+        "A",
+        "C",
+        "F",
+        "HD",
+        "N",
+        "OA"
+      ],
+      "receptor": "benchmark-100/prepared/hivrt/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivrt/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivrt/maps"
+    },
+    {
+      "target": "hivrt",
+      "ligand": "CHEMBL320379",
+      "source_index": 39,
+      "pdbqt": "benchmark-100/prepared/hivrt/ligands/08_CHEMBL320379.pdbqt",
+      "heavy_atoms": 25,
+      "rotatable_bonds": 6,
+      "branches": 7,
+      "atom_types": [
+        "A",
+        "C",
+        "F",
+        "HD",
+        "N",
+        "OA"
+      ],
+      "receptor": "benchmark-100/prepared/hivrt/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivrt/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivrt/maps"
+    },
+    {
+      "target": "hivrt",
+      "ligand": "CHEMBL420519",
+      "source_index": 40,
+      "pdbqt": "benchmark-100/prepared/hivrt/ligands/09_CHEMBL420519.pdbqt",
+      "heavy_atoms": 22,
+      "rotatable_bonds": 3,
+      "branches": 3,
+      "atom_types": [
+        "A",
+        "C",
+        "Cl",
+        "HD",
+        "N",
+        "NA",
+        "OA"
+      ],
+      "receptor": "benchmark-100/prepared/hivrt/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivrt/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivrt/maps"
+    },
+    {
+      "target": "hivrt",
+      "ligand": "CHEMBL420519",
+      "source_index": 41,
+      "pdbqt": "benchmark-100/prepared/hivrt/ligands/10_CHEMBL420519.pdbqt",
+      "heavy_atoms": 22,
+      "rotatable_bonds": 4,
+      "branches": 4,
+      "atom_types": [
+        "A",
+        "C",
+        "Cl",
+        "HD",
+        "N",
+        "NA",
+        "OA"
+      ],
+      "receptor": "benchmark-100/prepared/hivrt/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivrt/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivrt/maps"
+    },
+    {
+      "target": "hivrt",
+      "ligand": "CHEMBL121835",
+      "source_index": 42,
+      "pdbqt": "benchmark-100/prepared/hivrt/ligands/11_CHEMBL121835.pdbqt",
+      "heavy_atoms": 21,
+      "rotatable_bonds": 4,
+      "branches": 4,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "OA",
+        "S"
+      ],
+      "receptor": "benchmark-100/prepared/hivrt/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivrt/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivrt/maps"
+    },
+    {
+      "target": "hivrt",
+      "ligand": "CHEMBL81319",
+      "source_index": 43,
+      "pdbqt": "benchmark-100/prepared/hivrt/ligands/12_CHEMBL81319.pdbqt",
+      "heavy_atoms": 24,
+      "rotatable_bonds": 2,
+      "branches": 2,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "NA",
+        "OA"
+      ],
+      "receptor": "benchmark-100/prepared/hivrt/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivrt/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivrt/maps"
+    },
+    {
+      "target": "hivrt",
+      "ligand": "CHEMBL340145",
+      "source_index": 44,
+      "pdbqt": "benchmark-100/prepared/hivrt/ligands/13_CHEMBL340145.pdbqt",
+      "heavy_atoms": 20,
+      "rotatable_bonds": 4,
+      "branches": 4,
+      "atom_types": [
+        "A",
+        "C",
+        "Cl",
+        "HD",
+        "N",
+        "NA",
+        "SA"
+      ],
+      "receptor": "benchmark-100/prepared/hivrt/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivrt/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivrt/maps"
+    },
+    {
+      "target": "hivrt",
+      "ligand": "CHEMBL156340",
+      "source_index": 45,
+      "pdbqt": "benchmark-100/prepared/hivrt/ligands/14_CHEMBL156340.pdbqt",
+      "heavy_atoms": 24,
+      "rotatable_bonds": 4,
+      "branches": 4,
+      "atom_types": [
+        "A",
+        "C",
+        "F",
+        "HD",
+        "N",
+        "NA",
+        "OA",
+        "SA"
+      ],
+      "receptor": "benchmark-100/prepared/hivrt/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivrt/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivrt/maps"
+    },
+    {
+      "target": "hivrt",
+      "ligand": "CHEMBL156340",
+      "source_index": 46,
+      "pdbqt": "benchmark-100/prepared/hivrt/ligands/15_CHEMBL156340.pdbqt",
+      "heavy_atoms": 24,
+      "rotatable_bonds": 4,
+      "branches": 4,
+      "atom_types": [
+        "A",
+        "C",
+        "F",
+        "HD",
+        "N",
+        "NA",
+        "OA",
+        "SA"
+      ],
+      "receptor": "benchmark-100/prepared/hivrt/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivrt/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivrt/maps"
+    },
+    {
+      "target": "hivrt",
+      "ligand": "CHEMBL356998",
+      "source_index": 47,
+      "pdbqt": "benchmark-100/prepared/hivrt/ligands/16_CHEMBL356998.pdbqt",
+      "heavy_atoms": 24,
+      "rotatable_bonds": 2,
+      "branches": 2,
+      "atom_types": [
+        "A",
+        "C",
+        "N",
+        "NA",
+        "OA"
+      ],
+      "receptor": "benchmark-100/prepared/hivrt/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivrt/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivrt/maps"
+    },
+    {
+      "target": "hivrt",
+      "ligand": "CHEMBL352398",
+      "source_index": 52,
+      "pdbqt": "benchmark-100/prepared/hivrt/ligands/17_CHEMBL352398.pdbqt",
+      "heavy_atoms": 35,
+      "rotatable_bonds": 8,
+      "branches": 8,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "OA",
+        "P"
+      ],
+      "receptor": "benchmark-100/prepared/hivrt/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivrt/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivrt/maps"
+    },
+    {
+      "target": "hivrt",
+      "ligand": "CHEMBL352398",
+      "source_index": 53,
+      "pdbqt": "benchmark-100/prepared/hivrt/ligands/18_CHEMBL352398.pdbqt",
+      "heavy_atoms": 35,
+      "rotatable_bonds": 8,
+      "branches": 8,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "OA",
+        "P"
+      ],
+      "receptor": "benchmark-100/prepared/hivrt/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivrt/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivrt/maps"
+    },
+    {
+      "target": "hivrt",
+      "ligand": "CHEMBL352398",
+      "source_index": 54,
+      "pdbqt": "benchmark-100/prepared/hivrt/ligands/19_CHEMBL352398.pdbqt",
+      "heavy_atoms": 35,
+      "rotatable_bonds": 8,
+      "branches": 8,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "OA",
+        "P"
+      ],
+      "receptor": "benchmark-100/prepared/hivrt/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivrt/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivrt/maps"
+    },
+    {
+      "target": "hivrt",
+      "ligand": "CHEMBL352398",
+      "source_index": 55,
+      "pdbqt": "benchmark-100/prepared/hivrt/ligands/20_CHEMBL352398.pdbqt",
+      "heavy_atoms": 35,
+      "rotatable_bonds": 8,
+      "branches": 8,
+      "atom_types": [
+        "A",
+        "C",
+        "HD",
+        "N",
+        "OA",
+        "P"
+      ],
+      "receptor": "benchmark-100/prepared/hivrt/receptor.pdbqt",
+      "config": "benchmark-100/prepared/hivrt/receptor.box.txt",
+      "maps": "benchmark-100/prepared/hivrt/maps"
+    }
+  ]
+}

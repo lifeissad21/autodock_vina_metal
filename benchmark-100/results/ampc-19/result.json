@@ -1,0 +1,16 @@
+{
+  "id": "ampc-19",
+  "target": "ampc",
+  "ligand": "116",
+  "seed": 20260735,
+  "heavyAtoms": 22,
+  "torsions": 6,
+  "cpuSeconds": 4.523950666000005,
+  "cpuScore": -7.834,
+  "metalProcessSeconds": 2.1508080000000045,
+  "metalSearchSeconds": 1.0063,
+  "vinaRefinementSeconds": 0.6821,
+  "hybridScore": -7.802,
+  "scoreDelta": 0.03200000000000003,
+  "poseRmsd": 0.9298504034129758
+}

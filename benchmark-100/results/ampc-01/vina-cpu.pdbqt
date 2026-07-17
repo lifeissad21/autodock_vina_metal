@@ -1,0 +1,39 @@
+MODEL 1
+REMARK VINA RESULT:    -7.009      0.000      0.000
+REMARK INTER + INTRA:          -8.312
+REMARK INTER:                  -8.034
+REMARK INTRA:                  -0.278
+REMARK UNBOUND:                -0.278
+REMARK SMILES O=C([O-])[C@H]1CC(=O)N(c2ccccc2O)C1
+REMARK SMILES IDX 11 1 12 2 13 3 14 4 9 5 10 6 8 7 6 8 16 9 5 10 7 11 4 12
+REMARK SMILES IDX 2 13 1 14 3 15 15 16
+REMARK H PARENT 15 17
+REMARK INDEX MAP 1 1 2 2 3 3 4 4 5 5 6 6 7 7 12 8 8 9 11 10 13 11 9 12 14 13
+REMARK INDEX MAP 15 14 16 15 17 16 26 17
+ROOT
+ATOM      1  C   UNL     1      81.373   5.063  31.370  1.00  0.00     0.002 A 
+ATOM      2  C   UNL     1      80.422   5.133  32.371  1.00  0.00     0.004 A 
+ATOM      3  C   UNL     1      79.094   5.355  32.055  1.00  0.00     0.048 A 
+ATOM      4  C   UNL     1      78.713   5.506  30.731  1.00  0.00     0.139 A 
+ATOM      5  C   UNL     1      79.670   5.436  29.722  1.00  0.00     0.086 A 
+ATOM      6  C   UNL     1      81.001   5.213  30.047  1.00  0.00     0.030 A 
+ENDROOT
+BRANCH   5   7
+ATOM      7  N   UNL     1      79.292   5.588  28.382  1.00  0.00    -0.308 N 
+ATOM      8  C   UNL     1      78.889   6.748  27.833  1.00  0.00     0.227 C 
+ATOM      9  C   UNL     1      79.279   4.500  27.397  1.00  0.00     0.136 C 
+ATOM     10  C   UNL     1      78.573   6.548  26.367  1.00  0.00     0.112 C 
+ATOM     11  O   UNL     1      78.796   7.801  28.427  1.00  0.00    -0.274 OA
+ATOM     12  C   UNL     1      79.231   5.193  26.017  1.00  0.00     0.064 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1      78.378   4.412  25.051  1.00  0.00     0.047 C 
+ATOM     14  O   UNL     1      78.882   3.909  24.062  1.00  0.00    -0.550 OA
+ATOM     15  O   UNL     1      77.183   4.284  25.258  1.00  0.00    -0.550 OA
+ENDBRANCH  12  13
+ENDBRANCH   5   7
+BRANCH   4  16
+ATOM     16  O   UNL     1      77.408   5.723  30.418  1.00  0.00    -0.506 OA
+ATOM     17  H   UNL     1      76.818   4.997  30.666  1.00  0.00     0.293 HD
+ENDBRANCH   4  16
+TORSDOF 3
+ENDMDL

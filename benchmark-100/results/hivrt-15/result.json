@@ -1,0 +1,16 @@
+{
+  "id": "hivrt-15",
+  "target": "hivrt",
+  "ligand": "CHEMBL156340",
+  "seed": 20260811,
+  "heavyAtoms": 24,
+  "torsions": 4,
+  "cpuSeconds": 4.367625541000045,
+  "cpuScore": -10.3,
+  "metalProcessSeconds": 2.0442774590000043,
+  "metalSearchSeconds": 0.7875,
+  "vinaRefinementSeconds": 0.687,
+  "hybridScore": -10.238,
+  "scoreDelta": 0.062000000000001165,
+  "poseRmsd": 0.14709789824014008
+}
