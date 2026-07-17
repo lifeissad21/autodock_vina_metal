@@ -1,28 +1,34 @@
-# Vina Metal Release Notes
+# AutoDock Vina Metal v0.1.0
 
-Proposed release name: `autodock-vina-metal`.
+Release tag: `v0.1.0`
 
-Proposed release tag: `v0.1.0`.
+Release name: `autodock-vina-metal`
 
-This release packages the Metal-backed Vina-compatible docking engine and the benchmark artifacts that validate it:
+This is the first published release of the Metal-backed Vina-compatible docking engine and its benchmark suite.
 
-- `metal-prototype/`: Metal search engine and explicit Vina refinement path
-- `benchmark-100/`: 100-case DUD-E Diverse benchmark
-- `broader-benchmark/`: smaller compatibility benchmark used during development
+## Included Artifacts
 
-The raw DUD-E Diverse download archive is treated as an external input cache. The prepared benchmark inputs and the generated result reports are the versioned experiment artifacts.
+- Source code archive from the `v0.1.0` tag
+- macOS arm64 binary bundle for `VinaMetal`
+- benchmark inputs and reports under `benchmark-100/`
 
-## Release Highlights
+The raw DUD-E download archive is treated as a local input cache and is not part of the published release payload.
 
-- Vina-compatible scoring and refinement through the official `bin/vina` executable
-- adaptive GPU lane scheduling based on ligand complexity
-- clustered mode retention with one-mode benchmark output
-- resumable benchmark runner that writes per-case JSON immediately
-- documented 100-docking benchmark on five proteins
+## Downloadable Assets
 
-## Validation Summary
+- `VinaMetal-macos-arm64.zip`
+- GitHub-generated source archive for `v0.1.0`
 
-The 100-docking benchmark completed successfully with:
+## What Changed
+
+- Added an Apple Metal docking engine that keeps Vina-compatible search, scoring, clustering, and final refinement semantics
+- Added a resumable 100-docking benchmark spanning five DUD-E Diverse targets
+- Added benchmark reports and per-case artifacts for reproducibility
+- Added release packaging guidance for the macOS arm64 binary
+
+## Validation
+
+The 100-docking benchmark completed with:
 
 - CPU Vina: `745.74 s`
 - Metal + Vina: `299.15 s`
@@ -30,18 +36,7 @@ The 100-docking benchmark completed successfully with:
 - mean absolute final-score delta: `0.178 kcal/mol`
 - maximum absolute final-score delta: `1.662 kcal/mol`
 
-The aggregate report is available at `benchmark-100/results/REPORT.md`.
-
-## Release Notes For GitHub
-
-Use this file as the body for the GitHub release once the repository is pushed and the GitHub session is authenticated again.
-
-Suggested artifact list:
-
-- source tree at the release tag
-- `benchmark-100/results/summary.json`
-- `benchmark-100/results/results.csv`
-- `benchmark-100/results/REPORT.md`
+See `benchmark-100/results/REPORT.md` for the full table and per-target breakdown. The benchmark result files remain in the repository under `benchmark-100/results/`.
 
 ## Build
 
@@ -50,10 +45,10 @@ cd metal-prototype
 swift build -c release
 ```
 
-## Docking
+## Run
 
 ```sh
-metal-prototype/.build/release/VinaMetal \
+metal-prototype/.build/arm64-apple-macosx/release/VinaMetal \
   --dock \
   --flexible \
   --maps benchmark-100/prepared/hivrt/maps \
@@ -63,4 +58,10 @@ metal-prototype/.build/release/VinaMetal \
   --vina-config benchmark-100/prepared/hivrt/receptor.box.txt
 ```
 
-The benchmark runner in `benchmark-100/benchmark.ts` is the preferred way to reproduce the full experiment.
+## Benchmark
+
+```sh
+bun benchmark-100/benchmark.ts
+```
+
+The benchmark runner is resumable and writes results to `benchmark-100/results/`.

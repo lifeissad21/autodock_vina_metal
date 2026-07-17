@@ -27,6 +27,7 @@ metal-prototype/tools/extract_vina_model
 # Local scratch outputs from the tutorial data set
 data/*_out.pdbqt
 benchmark-100/downloads/*.tar.gz
+release-assets/
 
 # Keep the root results directory available for ad hoc notes,
 # but do not add fresh scratch files there.
